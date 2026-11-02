@@ -1,0 +1,42 @@
+# Operating system metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+Icon?
+
+# Cloud storage and sync artifacts (Google Drive, Dropbox, OneDrive)
+.tmp.drivedownload/
+*.tmp.drivedownload
+*.gdoc
+*.gsheet
+*.gslides
+*.gdraw
+*.gform
+* (conflicted copy *)
+* (conflict *)
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+env/
+venv/
+ENV/
+
+# Local scratch and temporary files
+dev/
+tmp/
