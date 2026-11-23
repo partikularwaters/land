@@ -25,16 +25,18 @@ Keep the configured human Git identity as the commit author.
 When an AI assistant materially shaped the commit, add one trailer:
 
 ```text
-Assisted-by: <provider or product> (<model, if known>)
+Assisted-by: <product> (<model, if known>)
 ```
 
 Examples:
 
 ```text
-Assisted-by: Anthropic Claude Code (Haiku 5.5)
-Assisted-by: Google Antigravity (Gemini 3.8 Flash)
-Assisted-by: Meta Muse (Muse Spark 1.3)
-Assisted-by: OpenAI Codex (GPT-6.1 Luna)
+Assisted-by: Claude Code (Opus 5.5)
+Assisted-by: Claude Code (Haiku 5.5)
+Assisted-by: Codex (GPT 6.1 Sol)
+Assisted-by: Codex (GPT 6.1 Terra)
+Assisted-by: Antigravity (Gemini 3.8 Flash)
+Assisted-by: Antigravity (Gemini 4 Argon)
 ```
 
 Name the actual product and model when available. If the model is unknown, name the product only. Repeat the trailer when multiple assistants materially contribute.

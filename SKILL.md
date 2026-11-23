@@ -20,10 +20,12 @@ Assisted-by: <product> (<model, if known>)
 For example:
 
 ```text
-Assisted-by: Anthropic Claude Code (Haiku 5.5)
-Assisted-by: Google Antigravity (Gemini 3.8 Flash)
-Assisted-by: Meta Muse (Muse Spark 1.3)
-Assisted-by: OpenAI Codex (GPT-6.1 Luna)
+Assisted-by: Claude Code (Opus 5.5)
+Assisted-by: Claude Code (Haiku 5.5)
+Assisted-by: Codex (GPT 6.1 Sol)
+Assisted-by: Codex (GPT 6.1 Terra)
+Assisted-by: Antigravity (Gemini 3.8 Flash)
+Assisted-by: Antigravity (Gemini 4 Argon)
 ```
 
 Name only actual contributing products and models. If the model is unknown, name the product only. Repeat the trailer when multiple tools make material contributions. Never invent an AI email address, and do not use `Co-authored-by` unless the repository owner explicitly requests it and provides a verifiable identity.
